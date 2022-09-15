@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+}
+
+main {
+    min-height: 100vh;
+}
+
+p {
+    line-height: 2;
+}
+
+button {
+    padding-top: 10px;
+    padding-left: 11px;
+    padding-right: 13px;
+    padding-bottom: 9px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(40,42,53);
+    color: white;
+    border: none;
+}
+
+.header {
+    height: 50px;
+    width: 100%;
+    top: 0;
+    position: sticky;
+    background-color: rgb(40,42,53);
+}
+
+.footer {
+    height: 50px;
+    width: 100%;
+    color: #fff;
+    background-color:rgb(40,42,53);
+    position: absolute;
+}
+
+.footerText {
+    position: static;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.homeImage {
+    padding-top: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 5px;
+    position: absolute;
+    cursor: pointer;
+    background-color: rgb(40,42,53);
+
+    border-radius: 1px;
+    border-style: solid;
+    border-color: green;
+}
+
+.headerLinks {
+    margin-top: 17px;
+    margin-left: 50px;
+    color: white;
+}
+
+.paragraphAlign {
+    margin-top:40px;
+    margin-bottom:50px;
+    margin-left:30px;
+    margin-right:30px;
+}
+
+.vertLeft {
+    border-left: 1px solid rgb(167, 172, 177);
+    height: 850px;
+    margin-left: 160px;
+}
+
+.vertRight {
+    border-right: 1px solid rgb(167, 172, 177);
+    height: 850px;
+    margin-right: 170px;
+}
+
+.horizontalLine {
+    border-top: 1px solid rgb(167, 172, 177);
+    width: 100%;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.push {
+    height: 110px;
+}
+
+button:hover {
+    background-color: black;
+}
